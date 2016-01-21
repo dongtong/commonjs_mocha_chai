@@ -1,0 +1,30 @@
+{
+  "name": "commonjs_mocha_chai",
+  "version": "0.0.1",
+  "description": "Use mocha, chai to test javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dongtong/commonjs_mocha_chai.git"
+  },
+  "keywords": [
+    "CommonJS",
+    "mocha",
+    "chai",
+    "should"
+  ],
+  "author": "dongtong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dongtong/commonjs_mocha_chai/issues"
+  },
+  "homepage": "https://github.com/dongtong/commonjs_mocha_chai#readme",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "should": "^8.1.1"
+  }
+}
